@@ -1,0 +1,75 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4542509600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinations.init()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Sky Blue Background",
+        "description": "",
+        "id": "final-exam-cucumber-automation;sky-blue-background",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 131996600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Set SkyBlue Background",
+            "match": {
+              "location": "stepDefinations.set_SkyBlue_Background()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 38168800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on the button",
+            "match": {
+              "location": "stepDefinations.i_click_on_the_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 51535300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the background color will change to sky blue",
+            "match": {
+              "location": "stepDefinations.the_background_color_will_change_to_sky_blue()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@Scenario1"
+          }
+        ]
+      }
+    ],
+    "name": "Final Exam Cucumber Automation",
+    "description": "",
+    "id": "final-exam-cucumber-automation",
+    "keyword": "Feature",
+    "uri": "features/Final.feature"
+  }
+]
